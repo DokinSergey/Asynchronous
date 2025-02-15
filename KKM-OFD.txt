@@ -1,0 +1,63 @@
+Тег 1030 - items.name - наименование предмета расчета может иметь длину не более 128 символов (с учётом пробелов). 
+Со стороны ОФД-Я отражено ровно то, что прислала ККТ. 
+В данном случае Наименование предмета расчета в 1 и 3 строке прислано ККТ не было: 
+{ 
+  "dateTime": 1736880900, 
+  "provisionSum": 0, 
+  "fiscalDocumentFormatVer": 2, 
+  "code": 3, 
+  "fiscalDriveNumber": "7381440700204787", 
+  "shiftNumber": 197, 
+  "operator": "СИСТ. АДМИН.", 
+  "requestNumber": 14, 
+  "fnsUrl": "www.nalog.gov.ru", 
+  "ecashTotalSum": 0, 
+  "fiscalDocumentNumber": 3778, 
+  "ndsNo": 760001, 
+  "userInn": "504805830090", 
+  "kktRegId": "0000852791046836", 
+  "creditSum": 0, 
+  "cashTotalSum": 760001, 
+  "appliedTaxationType": 2, 
+  "totalSum": 760001, 
+  "retailPlaceAddress": "Московская область, г. Чехов, пл.Привокзальная, стр.1", 
+  "fiscalSign": 4169057341, 
+  "operationType": 1, 
+  "prepaidSum": 0, 
+  "items": [ 
+    { 
+      "quantity": 1, 
+      "price": 675000, 
+      "name": "", 
+      "sum": 675000, 
+      "productType": 1, 
+      "paymentType": 4 
+    }, 
+    { 
+      "quantity": 1, 
+      "price": 40000, 
+      "name": "Стартовый баланс Yota 400 рублей", 
+      "sum": 40000, 
+      "productType": 1, 
+      "paymentType": 4 
+    }, 
+    { 
+      "quantity": 1, 
+      "price": 1, 
+      "name": "", 
+      "sum": 1, 
+      "productType": 1, 
+      "paymentType": 4 
+    }, 
+    { 
+      "quantity": 1, 
+      "price": 45000, 
+      "name": "Чехол Xiaomi Redmi A3/C61 книжка черный", 
+      "sum": 45000, 
+      "productType": 1, 
+      "paymentType": 4 
+    } 
+  ], 
+  "user": "ИП Нурков Павел Геннадьевич", 
+  "retailPlace": "Магазин \"Мегафон\"" 
+} 
