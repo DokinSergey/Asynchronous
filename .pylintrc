@@ -99,8 +99,6 @@ load-plugins=pylint.extensions.code_style
             ,pylint.extensions.redefined_loop_name
             ,pylint.extensions.typing
             # ,pylint.extensions.while_used
-            # ,pylint.extensions.dataclass_checkers
-            # ,pylint.extensions.dataclass
             # ,pylint.extensions.emptystring
             # ,pylint.extensions.comparetozero
 
@@ -109,7 +107,7 @@ persistent=yes
 
 # Минимальная версия Python, используемая для проверок, зависящих от версии. По умолчанию
 # будет установлено значение версия, используемая для запуска pylint.
-py-version=3.11
+py-version=3.12
 
 # Discover python modules and packages in the file system subtree.
 recursive=True
@@ -143,7 +141,7 @@ argument-naming-style=PascalCase
 #argument-rgx=
 
 # Стиль именования именём атрибутов.
-attr-naming-style=PascalCase
+attr-naming-style=any
 
 # Regular expression matching correct attribute names. Overrides attr-naming-
 # style. If left empty, attribute names will be checked with the set naming
@@ -450,7 +448,7 @@ confidence=HIGH,
 # --enable=classes
 # --disable=Windows".
 disable=C0301,C0103,C0114,C0115,C0116,C0321,C0410,C0411 #C0303,
-        ,W0622,W0718 #W1309,W0611,
+        ,W0622,W0718,W0603 #W1309,W0611,
         # ,R6103 # R0902,R1732 
         ,R0911,R0912,R0913,R0914,R0915
         #R,C,W
